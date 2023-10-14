@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,29 +23,30 @@ Route::get('/', function () {
 });
 
 
-Route::name('admin')->group(function () {
+Route::prefix('admin')->group(function () {
 
-    Route::get('admin/home', function () {
-       return view('admin.home');
-    })->name('home');
-    Route::get('admin/calendar', function () {
-        return view('admin.calendar');
-    })->name('calendar');
-    Route::get('admin/managerUser', function () {
-        return view('admin.managerUser');
+    Route::get('/home', [AdminController::class, 'managerUsers'])->name('managerUsers');
+
+    Route::get('/calendar', [AdminController::class, 'managerCalendar'])->name('managerCalendar');
+
+    Route::get('/managerUser', function () {
+        return view('admin.managerUser')->name('adminManagerUser');
     })->name('managerUser');
-    Route::get('admin/addUser', function () {
+
+    Route::get('/addUser', function () {
         return view('admin.addUser');
     })->name('addUser');
 
 
 });
 
-Route::name('user')->group(function () {
+Route::prefix('user')->group(function () {
 
-    Route::get('user/home', function () {
-        return view('user.home');
-    })->name('home');
+//    Route::get('user/home', function () {
+//        return view('user.home');
+//    })->name('home');
+
+    Route::get('/calendar', [UserController::class, 'calendar'])->name('calendar');
 
 });
 
