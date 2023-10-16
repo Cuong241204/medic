@@ -164,7 +164,7 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
                         <li class="nav-item">
-                            <a href="{{route('managerUsers')}}" class="nav-link">
+                            <a href="{{route('infor')}}" class="nav-link">
                                 <i class="nav-icon fas fa-users"></i>
                                 <p>
                                     Xem hồ sơ bệnh án
@@ -172,7 +172,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('managerCalendar')}}" class="nav-link">
+                            <a href="{{route('calendar')}}" class="nav-link">
                                 <i class="nav-icon fas fa-calendar"></i>
                                 <p>
                                     Đặt lịch khám
@@ -180,7 +180,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="widgets.html" class="nav-link">
+                            <a href="{{route('message')}}" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     Liên hệ tư vấn

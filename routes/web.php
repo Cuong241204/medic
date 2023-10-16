@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', function () {
-    return view('layouts.login');
-});
-Route::get('/', function () {
-    return view('layouts.signup');
+Route::get('/login', [UserController::class, 'login'])->name('login');
+Route::get('/register', [UserController::class, 'register'])->name('register');
+
+Route::get('welcome', function () {
+    return view('welcome');
 });
 
 
@@ -29,24 +29,17 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/calendar', [AdminController::class, 'managerCalendar'])->name('managerCalendar');
 
-    Route::get('/managerUser', function () {
-        return view('admin.managerUser')->name('adminManagerUser');
-    })->name('managerUser');
 
-    Route::get('/addUser', function () {
-        return view('admin.addUser');
-    })->name('addUser');
+    Route::get('/addUser', [AdminController::class, 'addUser'])->name('addUser');
 
 
 });
 
 Route::prefix('user')->group(function () {
 
-//    Route::get('user/home', function () {
-//        return view('user.home');
-//    })->name('home');
-
     Route::get('/calendar', [UserController::class, 'calendar'])->name('calendar');
+    Route::get('/infor', [UserController::class, 'inforCaseRecord'])->name('infor');
+    Route::get('/message', [UserController::class, 'message'])->name('message');
 
 });
 

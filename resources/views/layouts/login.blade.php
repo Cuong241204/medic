@@ -81,6 +81,7 @@
                             <button type="submit" class="btn btn-primary btn-block mb-4">
                                 Xác nhận
                             </button>
+                            <a href="{{route('register')}}">Bạn chưa có tài khoản? đăng ký</a>
                         </form>
                     </div>
                 </div>

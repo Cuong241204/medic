@@ -9,3 +9,4 @@
 <script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
 
 <script type="text/javascript" src="{{ asset('js/fullcalendar.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/carousel.js')}}"></script>
