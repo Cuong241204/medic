@@ -6,9 +6,9 @@
     <div class="col-10">
         <div class="add-medic"
              style="width: 1300px; margin: 30px auto 0px; border-bottom: 1px solid #dadada; padding-bottom: 10px">
-            <button class="btn btn-primary"><i class="fas fa-address-card" style="padding-right: 10px"></i>Thêm bệnh
+            <a href="{{route('addUser')}}" class="btn btn-primary"><i class="fas fa-address-card" style="padding-right: 10px"></i>Thêm bệnh
                 nhân
-            </button>
+            </a>
         </div>
         <div class="filter-search d-flex" style="width: 1300px; margin: 30px auto 0px;">
             <div class="form-outline" style="width: 50%">

@@ -111,6 +111,7 @@
                             <button type="submit" class="btn btn-primary btn-block mb-4">
                                 Sign up
                             </button>
+                            <a href="{{route('login')}}">Bạn đã có tài khoản ? đăng nhập</a>
                         </form>
                     </div>
                 </div>

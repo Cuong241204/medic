@@ -16,4 +16,9 @@ class AdminController extends Controller
         return view('admin.calendar');
     }
 
+    public function addUser() {
+        return view('admin.addUser');
+    }
+
+
 }

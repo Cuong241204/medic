@@ -183,7 +183,7 @@
                             <a href="widgets.html" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
-                                    Quản lý
+                                    Danh sách bác sĩ
                                 </p>
                             </a>
                         </li>

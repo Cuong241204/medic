@@ -10,12 +10,24 @@ class UserController extends Controller
 
     }
 
+    public function login() {
+        return view('layouts.login');
+    }
+
+    public function register() {
+        return view('layouts.register');
+    }
+
     public function calendar() {
         return view('user/calendar');
     }
 
     public function inforCaseRecord() {
-        return view('user/calendar');
+        return view('user/infor');
+    }
+
+    public function message() {
+        return view('user/message');
     }
 
     public function consultative() {
