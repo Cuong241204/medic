@@ -1,6 +1,6 @@
 @extends('layouts.head')
 <!-- Section: Design Block -->
-<section class="background-radial-gradient overflow-hidden">
+<section class="background-radial-gradient overflow-hidden " style="height: 100vh">
     <style>
         .background-radial-gradient {
             background-color: hsl(218, 41%, 15%);
@@ -47,14 +47,11 @@
         <div class="row gx-lg-5 align-items-center mb-5">
             <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
                 <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-                    The best offer <br />
-                    <span style="color: hsl(218, 81%, 75%)">for your business</span>
+                    BỆNH VIỆN ĐA KHOA   <br />
+                    <span style="color:white"> HỒNG NGỌC </span>
                 </h1>
                 <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Temporibus, expedita iusto veniam atque, magni tempora mollitia
-                    dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-                    ab ipsum nisi dolorem modi. Quos?
+                    Thăm khám và điều trị tại Bệnh viện Đa khoa Hồng Ngọc, khách hàng sẽ được trải nghiệm các dịch vụ chăm sóc sức khỏe chất lương cao đạt tiêu chuẩn quốc tế.
                 </p>
             </div>
 

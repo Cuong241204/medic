@@ -1,11 +1,12 @@
 @include('layouts.head')
-<div class="nav-head d-flex  justify-content-between align-items-center" style="width: 1500px ; margin: 20px auto; margin-bottom: 50px">
-    <div class="d-flex justify-content-between"  style="width: 1200px">
+<div class="nav-head d-flex  justify-content-between align-items-center"
+     style="width: 1500px ; margin: 20px auto; margin-bottom: 50px">
+    <div class="d-flex justify-content-between" style="width: 1200px">
         <div class="menu-head"> VÌ SAO CHỌN CHÚNG TÔI</div>
-        <div class="menu-head"> CƠ SỞ KHÁM </div>
-        <div class="menu-head"> CÁC GÓI KHÁM </div>
-        <div class="menu-head"> QUY TRÌNH KHÁM SỨC KHỎE </div>
-        <div class="menu-head"> TRẢI NGHIỆM KHÁCH HÀNG </div>
+        <div class="menu-head"> CƠ SỞ KHÁM</div>
+        <div class="menu-head"> CÁC GÓI KHÁM</div>
+        <div class="menu-head"> QUY TRÌNH KHÁM SỨC KHỎE</div>
+        <div class="menu-head"> TRẢI NGHIỆM KHÁCH HÀNG</div>
     </div>
     <div>
         <a href="{{route('login')}}" class="btn btn-primary">Login</a>
@@ -13,7 +14,8 @@
     </div>
 
 </div>
-<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" style="margin-bottom: 20px">
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel"
+     style="margin-bottom: 20px">
     <div class="carousel-indicators">
         <button
             type="button"
@@ -121,59 +123,74 @@
             </p>
         </div>
     </div>
-
-    <div id="container1">
-        <div class="Adress">
-            <img src="assets/pk1.jpg"/>
-            <div class="Infor">
-                <p>
-                    BVĐK HỒNG NGỌC PHÚC TRƯỜNG MINH
-                </p>
-                <p>
-                    Số 8 Châu Văn Liêm, Nam Từ Liêm, Hà Nội
-                </p>
-            </div>
-        </div>
-        <div class="Adress" >
-            <img src="assets/pk2.jpg"/>
-            <div class="Infor">
-                <p>
-                    BỆNH VIỆN ĐA KHOA HỒNG NGỌC
-                </p>
-                <p>
-                    55 Yên Ninh, Trúc Bạch, Ba Đình, Hà Nội
-                </p>
-            </div>
-
-        </div>
+</div>
+<div class="coso" ;>
+    <div>
+        CƠ SỞ KHÁM
     </div>
-    <div id="container1">
-        <div class="Adress">
-            <img src="assets/pk3.jpg"/>
-            <div class="Infor">
-                <p>
-                    PHÒNG KHÁM HỒNG NGỌC SAVICO
-                </p>
-                <p>
-                    Savico Megamall Long Biên, Hà Nội
-                </p>
+    <div>
+        Đáp ứng nhu cầu KSK định kỳ nhanh chóng, thuận tiện
+
+    </div>
+
+</div>
+<div class="Main" style="margin-top: 20px" ;>
+    <div>
+
+        <div id="container1">
+            <div class="Adress">
+                <img src="assets/pk1.jpg"/>
+                <div class="Infor">
+                    <p>
+                        BVĐK HỒNG NGỌC PHÚC TRƯỜNG MINH
+                    </p>
+                    <p>
+                        Số 8 Châu Văn Liêm, Nam Từ Liêm, Hà Nội
+                    </p>
+                </div>
+            </div>
+            <div class="Adress">
+                <img src="assets/pk2.jpg"/>
+                <div class="Infor">
+                    <p>
+                        BỆNH VIỆN ĐA KHOA HỒNG NGỌC
+                    </p>
+                    <p>
+                        55 Yên Ninh, Trúc Bạch, Ba Đình, Hà Nội
+                    </p>
+                </div>
+
             </div>
         </div>
-        <div class="Adress">
-            <img src="assets/pk4.jpg"/>
-            <div class="Infor">
-                <p>
-                    PHÒNG KHÁM HỒNG NGỌC KEANGNAM
-                </p>
-                <p>
-                    Tầng 10 tòa Keangnam, Landmark 72, Hà Nội
-                </p>
+        <div id="container1">
+            <div class="Adress">
+                <img src="assets/pk3.jpg"/>
+                <div class="Infor">
+                    <p>
+                        PHÒNG KHÁM HỒNG NGỌC SAVICO
+                    </p>
+                    <p>
+                        Savico Megamall Long Biên, Hà Nội
+                    </p>
+                </div>
             </div>
+            <div class="Adress">
+                <img src="assets/pk4.jpg"/>
+                <div class="Infor">
+                    <p>
+                        PHÒNG KHÁM HỒNG NGỌC KEANGNAM
+                    </p>
+                    <p>
+                        Tầng 10 tòa Keangnam, Landmark 72, Hà Nội
+                    </p>
+                </div>
 
 
+            </div>
         </div>
     </div>
 </div>
+
 <div class="Nav">
     <div class="P1">
         <p>
@@ -183,39 +200,40 @@
     <div class="Pro">
 
         <div class="P">
-            <p>
+            <span>
                 Gói KSK cơ bản
-            </p>
+            </span>
         </div>
         <div class="P">
-            <p>
+            <span>
                 Gói KSK nâng cao
-            </p>
+            </span>
         </div>
         <div class="P">
-            <p>
+            <span>
                 Gói KSK chuyên sâu
-            </p>
+            </span>
         </div>
         <div class="P">
-            <p>
+            <span>
                 Gói KSK VVIP
-            </p>
+            </span>
         </div>
         <div class="P">
-            <p>
+            <span>
                 Gói KSK nhi
-            </p>
+            </span>
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container" style="height: 450px">
     <div class="row">
         <div class="col-12 row justify-content-between justify-content-center">
             <div class="col-3 comment" id="r3">
                 <p>
                     “Mặc dù ở xa nhưng tôi vẫn chọn Hồng Ngọc để khám định kỳ mỗi năm bởi tôi tin tưởng vào chuyên môn
-                    của bác sĩ bệnh viện. Đặc biệt, khi có vấn đề gì thắc mắc, tôi vẫn gọi điện cho bác sĩ đều được tư vấn rất tận tình”.
+                    của bác sĩ bệnh viện. Đặc biệt, khi có vấn đề gì thắc mắc, tôi vẫn gọi điện cho bác sĩ đều được tư
+                    vấn rất tận tình”.
                 </p>
                 <h5 class="text-center">
                     Cô Thu Hà, Yên Bái
@@ -225,11 +243,12 @@
                 </div>
 
             </div>
-            <div class="col-4 comment" id="col-center" >
+            <div class="col-4 comment" id="col-center">
                 <i class="fas fa-quote-left"></i>
                 <p>
                     “Tôi rất yên tâm khi lựa chọn khám sức khỏe định kỳ tại Hồng Ngọc bởi dịch vụ y tế ở đây rất chuyên
-                    nghiệp, nhân viên ai cũng tận tình, vui vẻ từ lễ tân, y tá đến các bác sĩ. Đặc biệt, bác sĩ thăm khám rất cẩn thận, tư vấn cặn kẽ về kết quả".
+                    nghiệp, nhân viên ai cũng tận tình, vui vẻ từ lễ tân, y tá đến các bác sĩ. Đặc biệt, bác sĩ thăm
+                    khám rất cẩn thận, tư vấn cặn kẽ về kết quả".
                 </p>
                 <h5 class="text-center">
                     Chị Minh Anh, Hà Nội
@@ -242,19 +261,139 @@
             <div class="col-3 comment" id="r3">
                 <p>
                     “Nhiều năm nay tôi đều khám sức khỏe định kỳ tại Bệnh viện Hồng Ngọc. Không gian thăm khám sạch sẽ,
-                    thoải mái. Bác sĩ tận tâm, chu đáo. Nói chung, tôi rất hài lòng về chất lượng dịch vụ y tế của bệnh viện.”
+                    thoải mái. Bác sĩ tận tâm, chu đáo. Nói chung, tôi rất hài lòng về chất lượng dịch vụ y tế của bệnh
+                    viện.”
                 </p>
                 <h5 class="text-center">
                     Anh Thái Long, Quảng Ninh
                 </h5>
                 <div class="Avatar">
-                    <img src="assets/Avatars/bs3.png" />
+                    <img src="assets/Avatars/bs3.png"/>
                 </div>
 
             </div>
         </div>
 
     </div>
+</div>
+<div class="footer">
+    <div class="row" style="padding-top: 40px">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-2" style="border-right: 6px solid #fff; padding-right: 0px">
+                    <img src="assets/logo.png" class="d-block" style="margin: 0 auto"/>
+
+                </div>
+                <div class="col-6" style="padding-left: 30px">
+                    <div class="b1">
+                        KHÁM SỨC KHỎE ĐỊNH KỲ
+                    </div>
+                    <div class="b2">
+                        BỆNH VIỆN ĐA KHOA HỒNG NGỌC
+                    </div>
+                    <div class="b3">
+                        <div class="a2>"
+                             Hotline
+                    </div>
+                    <div class="a2" style="border-radius: 35px;
+    background-image: linear-gradient(rgb(253, 251, 251), rgb(234, 237, 238));
+    background-color: initial;
+    background-size: initial;
+    background-origin: initial;
+    background-position: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    color:#18A049;
+    width: 230px;
+    padding: 3px 8px;">
+                        0932 232 016 - 0911 908 856
+                    </div>
+
+                </div>
+
+                <div class="a2">
+                    Email: khamsuckhoecanhan@hongngochospital.vn
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-4" style="width: 200px; height: 74px">
+
+        </div>
+    </div>
+    <div class="row" style="margin-top: 80px; border-bottom: 2px solid #fff; padding-bottom: 30px">
+        <div class="col-4">
+            <div class="a1">
+                BỆNH VIỆN ĐA KHOA HỒNG NGỌC - PHÚC TRƯỜNG MINH
+            </div>
+            <div class="a2">
+                <i class="fas fa-map-marker-alt"></i>
+                Số 8 Châu Văn Liêm, Nam Từ Liêm, Hà Nội
+
+            </div>
+            <div class="a2">
+                <i class="fas fa-phone-alt"></i>
+                +84-24 7300 8866 ext *0
+
+            </div>
+
+        </div>
+        <div class="col-4">
+            <div class="a1">
+                BỆNH VIỆN ĐA KHOA HỒNG NGỌC
+            </div>
+            <div class="a2">
+                <i class="fas fa-map-marker-alt"></i>
+                55 Yên Ninh, Trúc Bạch, Ba Đình, Hà Nội
+
+            </div>
+            <div class="a2">
+                <i class="fas fa-phone-alt"></i>
+                +84-24 3927 5568 ext*0
+
+            </div>
+            <div class="a2">
+                <i class="fas fa-envelope"></i>
+                info@hongngochospital.com
+            </div>
+            <div class="a2">
+                <i class="fas fa-globe"></i>
+                Website: hongngochospital.vn
+
+            </div>
+
+        </div>
+        <div class="col-4">
+            <div class="a1">
+                PHÒNG KHÁM HỒNG NGỌC SAVICO
+
+            </div>
+            <div class="a2">
+                <i class="fas fa-map-marker-alt"></i>
+                Tầng 3, tòa B, Savico Megamall, 07- 09 Nguyễn Văn Linh, Long Biên, Hà Nội
+
+            </div>
+            <div class="a2">
+                <i class="fas fa-phone-alt"></i>
+                +84-24 3927 5568 ext*5
+
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+<div class="col-2">
+
+</div>
+</div>
+
+
 </div>
 @include('layouts.footer')
 
@@ -267,76 +406,97 @@
         font-size: 100%;
     }
 
+    .P {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     #container {
         display: flex;
         justify-content: space-between;
     }
+
     .Main {
         width: 900px;
         margin: 0 auto;
 
     }
+
     .Main #container div {
         width: 285px;
     }
+
     .Main #container img {
         width: 100%;
         object-fit: cover;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
     }
+
     #container > div:nth-child(3) > img {
         height: 214px;
     }
+
     #container:first-child {
         margin-bottom: 20px;
     }
+
     #container p {
         font-weight: bold;
         line-height: 1.6;
         color: rgb(24, 160, 73);
         text-align: center;
     }
+
     #container1 {
         display: flex;
         justify-content: space-between;
     }
+
     #container1 div {
         width: 440px;
     }
+
     #container1 img {
         width: 100%;
         border-radius: 20px;
 
     }
+
     #container1 div {
 
         margin-bottom: 20px;
     }
+
     .Adress {
         position: relative;
 
     }
+
     .Infor {
         position: absolute;
         z-index: 10;
         bottom: -15px;
         left: 0;
-        background-color:rgba(25, 160, 74, 0.6);
+        background-color: rgba(25, 160, 74, 0.6);
         border-radius: 20px;
         color: white;
         padding-left: 10px;
         width: 430px !important;
     }
+
     #container1 > div:nth-child(2) > img {
         height: 293px;
     }
+
     .P1 {
         width: 300px;
         margin: 0 auto;
         font-weight: bold;
         color: rgb(0, 168, 79);
     }
+
     .Pro {
         display: flex;
         justify-content: space-between;
@@ -344,6 +504,7 @@
         margin: 0 auto;
 
     }
+
     .P {
         width: 200px;
         height: 50px;
@@ -354,20 +515,24 @@
         font-weight: bold;
         color: rgb(0, 168, 79);
     }
+
     .Nav {
         background-color: #8fbc8f75;
         padding: 30px 0;
 
     }
+
     body > div.container > div > div {
         margin: 0 auto;
     }
+
     .Avatar img {
         width: 100%;
         border-radius: 50%;
         border-width: 5px;
         border-style: solid;
     }
+
     .Avatar {
         width: 100px;
         margin: 0 auto;
@@ -388,6 +553,7 @@
 
 
     }
+
     .text-center {
         text-align: center !important;
         padding-bottom: 30px;
@@ -395,6 +561,7 @@
         font-weight: bold;
 
     }
+
     #col-center {
         background-color: rgba(0, 168, 79, 0.8);
         color: #fff;
@@ -402,20 +569,24 @@
         height: 220px;
 
     }
+
     #col-center > i {
         display: flex;
         justify-content: center;
         padding: 10px;
     }
+
     #col-center .text-center {
         position: absolute;
         width: 100%;
         height: 100%;
         overflow: hidden;
     }
+
     #r3 .Avatar {
         color: #fff;
     }
+
     .menu-head {
         font-size: 16px;
         font-weight: bold;
@@ -424,7 +595,67 @@
         text-align: center;
     }
 
+    .coso {
+        height: 100px;
+        background-color: rgb(0, 168, 79);
+        color: #fff;
+        line-height: 1.2;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 38.33px;
 
+
+    }
+
+    .coso div:first-child {
+        padding-top: 10px;
+        font-family: VVJXKysgLSBVUldESUtQmxhYsubRm;
+        font-weight: bold;
+    }
+
+    .coso div:last-child {
+        font-size: 20px;
+        margin-top: 15px;
+        color: #3f3f3f;
+    }
+
+    .footer {
+        height: 515px;
+        width: 100%;
+        background-image: url("assets/footer.png");
+        background-size: cover;
+
+    }
+    .a1 {
+        color: #fff;
+        font-size: 18px;
+        font-family: UZOLVNlZlIFVJIEJvbGQudHRm;
+        font-weight: bold;
+        line-height: 1.6;
+    }
+    .a2 {
+        color: #fff;
+    }
+    .b1 {
+        color: #fff;
+        font-size: 25px;
+        font-family: UZOLVNlZlIFVJLnRZg;
+        line-height: 1.6;
+        color: rgb(255, 255, 255);
+    }
+    .b2 {
+        color: #fff;
+        font-size: 28px;
+        font-family: UZOLVNlZlIFVJIEJvbGQudHRm;
+        font-weight: bold;
+        line-height: 1.6;
+        color: rgb(255, 255, 255);
+
+    }
+    .a1, .a2 {
+        margin-top: 10px
+    }
 </style>
+
 
 
