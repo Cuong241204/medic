@@ -61,21 +61,31 @@
 
                 <div class="card bg-glass">
                     <div class="card-body px-4 py-5 px-md-5">
-                        <form>
-
+                        <form action="#" method="POST">
+                            @csrf
+                            @if($errors -> any())
+                                <div class="alert alert-danger text-center  container">
+                                    Vui lòng kiểm tra dữ liệu đầu vào
+                                </div>
+                            @endif
+                            @error('email')
+                            <span style="color: red; font-style: italic; font-size: 15px" >{{$message}}</span>
+                            @enderror
                             <div class="form-outline mb-4">
-                                <input type="email" id="form3Example3" class="form-control" />
+                                <input type="text" id="form3Example3" class="form-control" name="email"/>
                                 <label class="form-label" for="form3Example3">Địa chỉ Email</label>
                             </div>
-
                             <!-- Password input -->
+                            @error('password')
+                            <span style="color: red; font-style: italic ;font-size: 15px">{{$message}}</span>
+                            @enderror
                             <div class="form-outline mb-4">
-                                <input type="password" id="form3Example4" class="form-control" />
+                                <input type="password" id="form3Example4" class="form-control" name="password"/>
                                 <label class="form-label" for="form3Example4">Mật khẩu</label>
                             </div>
 
                             <!-- Submit button -->
-                            <button type="submit" class="btn btn-primary btn-block mb-4">
+                            <button type="submit" id="submit" class="btn btn-primary btn-block mb-4">
                                 Xác nhận
                             </button>
                             <a href="{{route('register')}}">Bạn chưa có tài khoản? đăng ký</a>
@@ -88,3 +98,6 @@
 </section>
 <!-- Section: Design Block -->
 @extends('layouts.footer')
+<style>
+
+</style>

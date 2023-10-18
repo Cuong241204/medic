@@ -53,7 +53,7 @@
                     </div>
                     <div class="form-outline">
                         <input type="text" id="form12" class="form-control"/>
-                        <label class="form-label" for="form12">Nghe nghiêp</label>
+                        <label class="form-label" for="form12">Nghề nghiêp</label>
                     </div>
                 </div>
             </div>
